@@ -49,6 +49,10 @@ li {
   padding: 32px 0;
   align-items: center;
 }
+.header_contact_link {
+  display: flex;
+  align-items: center;
+}
 .header_menu_item:not(:last-child) {
   padding-right: 46px;
 }
@@ -86,9 +90,12 @@ header {
   line-height: 1.17;
 }
 
+
 .header_menu_link:hover,
-.header_contact_link:hover {
+.header_contact_link:hover,
+{
   color: var(--color-one);
+  fill: var(--color-one)
 }
 .header_contact_link {
   color: var(--color-three);
@@ -312,4 +319,8 @@ figcaption {
 }
 
 /*icons*/
-.icon{fill:#757575}
+.icon {
+  fill: #757575;
+ 
+}
+.header-icon{ margin-right:10px}
