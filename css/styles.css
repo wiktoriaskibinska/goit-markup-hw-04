@@ -95,6 +95,7 @@ header {
   font-weight: 500;
   cursor: pointer;
 }
+
 /*section class settings*/
 .section {
   padding: 94px 0;
@@ -309,3 +310,6 @@ figcaption {
   line-height: 1.87;
   margin: 0 24px 20px 24px;
 }
+
+/*icons*/
+.icon{fill:#757575}
