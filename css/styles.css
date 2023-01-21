@@ -292,15 +292,15 @@ figure {
 .joinus_list {
   list-style: none;
   display: flex;
-  gap:10px;
+  gap: 10px;
 }
 .joinus_tittle {
   color: var(--color-four);
   font-weight: 700;
   line-height: 1.17;
   margin-bottom: 23px;
-  font-size:14px;
-  vertical-align: text-bottom
+  font-size: 14px;
+  vertical-align: text-bottom;
 }
 /*portfolio.html*/
 
@@ -386,6 +386,18 @@ img {
 .our_clients-icon:hover {
   fill: var(--color-one);
 }
+.joinus-icon {
+  fill: var(--color-four);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+.joinus-icon:hover {
+  fill: var(--color-four);
+  background-color: var(--color-one);
+  border-radius: 50%;
+}
+
+
 .describtion_icons {
   fill: var(--color-two);
   margin: 25px 100px 25px 100px;
