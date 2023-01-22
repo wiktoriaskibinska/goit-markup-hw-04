@@ -116,7 +116,7 @@ li {
       rgba(47, 48, 58, 0.4) 0%,
       rgba(47, 48, 58, 0.4) 50%
     ),
-    url(../images/headerbackground.jpg);
+    url(images/headerbackground.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
