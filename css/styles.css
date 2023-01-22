@@ -61,7 +61,7 @@ li {
   padding-right: 50px;
 }
 
-header {
+.header {
   border-bottom: 1px solid #ececec;
 }
 .header_logo {
@@ -111,6 +111,17 @@ header {
 /*headline*/
 .headline {
   background-color: var(--color-six);
+  background-image: linear-gradient(
+      to bottom,
+      rgba(47, 48, 58, 0.4) 0%,
+      rgba(47, 48, 58, 0.4) 50%
+    ),
+    url(/images/headerbackground.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 1600px;
+  margin: 0 auto;
   color: var(--color-four);
   letter-spacing: 0.06em;
   text-align: center;
@@ -396,7 +407,6 @@ img {
   background-color: var(--color-one);
   border-radius: 50%;
 }
-
 
 .describtion_icons {
   fill: var(--color-two);
